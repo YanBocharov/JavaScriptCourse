@@ -37,25 +37,59 @@
 
 // ---------------------------------------- Циклы --------------------------------------------
 
-let num = 50;
+// let num = 50;
 
-// while (num <= 55) {
-//     console.log(num);
-//     num++;
+// // while (num <= 55) {
+// //     console.log(num);
+// //     num++;
+// // }
+
+// // do {
+// //     console.log(num);
+// //     num++;
+// // }
+// // while (num <=55);
+
+// for (let i = 0; i <= 10; i++) {
+//     if (i % 2) {
+//         // break;
+//         continue;
+//     } else {
+//         // continue;
+//     }
+//     console.log(i);
 // }
 
-// do {
-//     console.log(num);
-//     num++;
-// }
-// while (num <=55);
+// ---------------------------------------- Функции --------------------------------------------
 
-for (let i = 0; i <= 10; i++) {
-    if (i % 2) {
-        // break;
-        continue;
-    } else {
-        // continue;
-    }
-    console.log(i);
-}; 
+// let num = 20;
+
+// function showFirstMessege (text) {
+//     console.log(text);
+//     let num = 10;
+//     console.log(++num);
+// }
+// showFirstMessege('hello');
+// console.log(num);
+
+// function calc (a, b) {
+//     return (a * b);
+// }
+// console.log(calc(10, 5));
+
+// function ret () {
+//     let num = 50;
+//     return num;
+// }
+// let anotherNum = ret();
+// console.log(anotherNum);
+
+// let logger = function () {
+//     console.log('hello');
+// };
+// logger();
+
+// let calc = (a, b) => a + b;
+
+// ---------------------------------- Методы и св-ва строк и чисел -----------------------------------
+
