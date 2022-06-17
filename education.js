@@ -93,3 +93,23 @@
 
 // ---------------------------------- Методы и св-ва строк и чисел -----------------------------------
 
+// let str = 'test';
+// let arr = [1,2,4,5,9];
+// // console.log(str[2]);
+// // console.log(str.toUpperCase());
+// const fruit = 'someo fruit';
+
+// console.log(fruit.indexOf('o'));
+
+// const logg = 'hello world!';
+
+// console.log(logg.slice(-4, -1));
+// console.log(logg.substring(6, 12));
+// console.log(logg.substr(6, 6));
+
+const num = 12.5;
+const test = '12.2px';
+
+// console.log(Math.round(num));
+console.log(parseInt(test));
+console.log(parseFloat(test));
