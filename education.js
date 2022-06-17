@@ -107,9 +107,9 @@
 // console.log(logg.substring(6, 12));
 // console.log(logg.substr(6, 6));
 
-const num = 12.5;
-const test = '12.2px';
+// const num = 12.5;
+// const test = '12.2px';
 
-// console.log(Math.round(num));
-console.log(parseInt(test));
-console.log(parseFloat(test));
+// // console.log(Math.round(num));
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
