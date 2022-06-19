@@ -113,3 +113,20 @@
 // // console.log(Math.round(num));
 // console.log(parseInt(test));
 // console.log(parseFloat(test));
+
+// ---------------------------------- Callback функция -----------------------------------
+function learnJS(lang, callback) {
+    console.log(`я учу : ${lang}`);
+    callback();
+}
+
+function done(){
+    console.log('123')
+}
+
+learnJS('bgrbrb', done);
+// learnJS('javascript', function(){
+//     console.log('я прошел этот урок');
+// });
+
+// ----------------------------------  -----------------------------------
