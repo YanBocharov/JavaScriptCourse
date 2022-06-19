@@ -177,3 +177,37 @@ console.log(background);
 // console.log(counter);
 
 // ---------------------------------- Массивы и псевдомассивы ------------------------------
+
+const arr = [1,21,322,63,81];
+arr.sort(compareNum);
+console.log(arr);
+
+function compareNum (a, b) {
+    return a -b;
+}
+
+// arr.forEach(function (item, i, arr){
+//     console.log(`${i}: ${item} внутри массива ${arr}`);
+// });
+// console.log(arr.length);
+
+// arr[99] = 0;
+// console.log(arr);
+
+// arr.pop();
+// arr.push('test');
+
+// console.log(arr);
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+// for (let key of arr) {
+//     console.log(key);
+// }
+
+const str = prompt('', '');
+const products = str.split(', ');
+products.sort();
+console.log(products.join('-'));
