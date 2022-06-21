@@ -314,16 +314,16 @@
 
 // console.dir([1,2,3,4,5]);
 
-const soldier = {
-    health: 400,
-    armor: 100,
-    sayHello: function () {
-        console.log('Hello');
-    }
-};
+// const soldier = {
+//     health: 400,
+//     armor: 100,
+//     sayHello: function () {
+//         console.log('Hello');
+//     }
+// };
 
-const john = Object.create(soldier);
-john.sayHello();
+// const john = Object.create(soldier);
+// john.sayHello();
 
 // const john = {
 //     health: 100
@@ -336,3 +336,64 @@ john.sayHello();
 
 
 // Object.setPrototypeOf(john, solider);
+
+// -------------------------------- Динамическая типизация данных -----------------------------
+
+// To string
+// 1)
+// console.log(typeof(String(null)));
+
+// 2)
+
+// console.log(typeof(5 + ''));
+
+// const num = 5;
+
+// console.log(`https://vk.com/catalog/` + num);
+
+// const fontSize = 26 + 'px';
+
+// // To Number 
+
+// // 1) 
+// console.log(typeof(Number('4')));
+// // 2)
+// console.log(typeof(+'5'));
+// // 3) 
+// console.log(typeof(parseInt('15px', 10)));
+
+// let answer = +('hello!', '');
+
+// To boolean 
+
+// false : 0, '', null, undefined, NaN
+
+// let switcher = null;
+
+// if (switcher) {
+//     console.log('working...');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('working...');
+// }
+
+// 2) 
+// console.log(typeof(!!'444'));
+
+// let x = 5;
+// console.log(x++);
+
+// console.log('1'[0]);
+// console.log(2 && 1 && null && 0 && undefined);
+// && запинается на false , || запинается на true
+
+// console.log(!!(1&&2) === (1&&2));
+
+// console.log(+'Infinity');
+
+// console.log(`Ёжик` > `яблоко`);
+
+  
