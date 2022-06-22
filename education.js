@@ -396,4 +396,34 @@
 
 // console.log(`Ёжик` > `яблоко`);
 
-  
+// -------------------------------- События и их обработчики -----------------------------
+
+const btn = document.querySelector('button'),
+      btns = document.querySelectorAll('button'),
+      overlay = document.querySelector('.overlay');
+
+// btn.onclick = function () {
+//     console.log(123);
+// };
+
+// let i = 0;
+// let deleteElement = (e) => {
+//     console.log(e.target);
+//     console.log();
+//     i++;
+//     if (i == 1) {
+//         btn.removeEventListener('click', deleteElement);
+//     } 
+// };
+let consoleLog = (e) => {
+    console.log(123);
+};
+// btn.addEventListener('click', function (event) {
+//     console.log(event.target);
+//     event.target.remove();
+// });
+
+// btn.addEventListener('click', deleteElement);
+btns.forEach(btn => {
+    btn.addEventListener('click', consoleLog, {once: true});
+});
