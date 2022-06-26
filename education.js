@@ -398,9 +398,9 @@
 
 // -------------------------------- События и их обработчики -----------------------------
 
-const btn = document.querySelector('button'),
-      btns = document.querySelectorAll('button'),
-      overlay = document.querySelector('.overlay');
+// const btn = document.querySelector('button'),
+//       btns = document.querySelectorAll('button'),
+//       overlay = document.querySelector('.overlay');
 
 // btn.onclick = function () {
 //     console.log(123);
@@ -415,15 +415,33 @@ const btn = document.querySelector('button'),
 //         btn.removeEventListener('click', deleteElement);
 //     } 
 // };
-let consoleLog = (e) => {
-    console.log(123);
-};
+// let consoleLog = (e) => {
+//     console.log(123);
+// };
 // btn.addEventListener('click', function (event) {
 //     console.log(event.target);
 //     event.target.remove();
 // });
 
 // btn.addEventListener('click', deleteElement);
-btns.forEach(btn => {
-    btn.addEventListener('click', consoleLog, {once: true});
+// btns.forEach(btn => {
+//     btn.addEventListener('click', consoleLog, {once: true});
+// });
+
+// lesson 34 
+
+//touchstart 
+//touchmove 
+//touchend
+//touchenter
+//touchleave 
+//touchcancel
+
+window.addEventListener('DOMContentLoaded', () => {
+    const box = document.querySelector('.box');
+
+    box.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        console.log(e.touches);
+    });
 });
